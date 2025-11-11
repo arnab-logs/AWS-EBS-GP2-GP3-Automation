@@ -3,27 +3,6 @@
 This project automatically converts any newly created **Amazon EBS volumes** of type **gp2** to **gp3** using **AWS Lambda** and **Amazon EventBridge (CloudWatch Events)**.
 
 It helps ensure that your AWS environment always stays **compliant with organizational standards** — even if someone accidentally creates an outdated gp2 volume.
----
-
-## 📖 Table of Contents
-
-1. [Overview](#overview)
-2. [Why This Project](#why-this-project)
-3. [Architecture](#architecture)
-4. [How It Works](#how-it-works)
-5. [Step-by-Step Setup](#step-by-step-setup)
-
-   * [1. Create Lambda Function](#1-create-lambda-function)
-   * [2. Create EventBridge Rule](#2-create-eventbridge-rule)
-   * [3. Verify CloudWatch Logs](#3-verify-cloudwatch-logs)
-   * [4. Add Lambda Code](#4-add-lambda-code)
-   * [5. Update IAM Role Permissions](#5-update-iam-role-permissions)
-   * [6. Test the Automation](#6-test-the-automation)
-6. [Troubleshooting](#troubleshooting)
-7. [References](#references)
-8. [Closing Note](#closing-note)
-
----
 
 ## Overview
 
